@@ -1,57 +1,48 @@
-# 📊 Sales Dashboard
+📊 Sales Dashboard
+📌 Project Overview
+This project presents a Sales Dashboard designed to provide a clear and interactive overview of business sales performance.
+The dashboard brings together key performance indicators, monthly sales, weekly sales, daily sales, top-performing products, payment methods, and category performance in one visual report.
+The purpose of this project is to transform sales data into meaningful business insights that can support monitoring, analysis, and decision-making.
+🖼️ Dashboard Preview
+Upload your dashboard image here.
 
-## 📌 Project Overview
-
-This project presents an interactive **Sales Dashboard** designed to provide a clear overview of sales performance, purchasing activity, profitability, product performance, payment methods, and category-level results.
-
-The dashboard brings multiple business indicators together in a single view, allowing users to quickly identify sales patterns, high-performing products, weekly and daily trends, and category performance.
-
----
-
-## 🖼️ Dashboard Image
-
-The dashboard image is included below:
-
-![Sales Dashboard](Sales Dashboard.png)
-
-### 📂 How to Upload the Dashboard Image to GitHub
-
-1. Create a folder called **`assets`** in your GitHub repository.
-2. Upload your dashboard image into the `assets` folder.
-3. Rename the image to:
-
-```text
-sales-dashboard.png
-4. Your repository structure should look like this:
+Dashboard Image
+ 
+GitHub image path:
+assets/sales-dashboard.png
+📂 Recommended GitHub Repository Structure
 Sales-Dashboard/
 │
 ├── README.md
 │
 └── assets/
     └── sales-dashboard.png
-5. The following Markdown code displays the image in your README:
-![Sales Dashboard](assets/sales-dashboard.png)
-Tip: If your image has a different filename, replace sales-dashboard.png with the exact filename of your uploaded image.
-
-📈 Key Performance Indicators (KPIs)
+To display the image in GitHub, use:
+![Sales Dashboard]("Sales Dashboard.png")
+After uploading the image to the assets folder, GitHub will automatically display it in this section.
+📈 Key Performance Indicators
+The dashboard contains four major KPIs:
 KPI	Value
-Total Sales	$401.41K
-Total Quantity	4K
-Total Purchase	333K
-Total Profit	427.59M
+💰 Total Sales	$401.41192K
+📦 Total Quantity	4K
+🛒 Total Purchase	333K
+💵 Total Profit	427.59M
 
 
-📅 Monthly Sales
-The Monthly Sales line chart compares Total Purchase and Total Sales from January through December.
-This visualization helps to:
-- Track sales performance throughout the year.
-- Compare sales against purchases.
-- Identify increases and decreases in monthly performance.
-- Identify possible seasonal patterns.
-- Understand periods of stronger or weaker business activity.
-The dashboard shows fluctuations throughout the year, with sales and purchase values changing across the different months.
-📆 Weekly Sales
-The Weekly Sales chart displays sales performance from Monday to Sunday.
+These KPIs provide a quick summary of the overall performance represented in the dashboard.
+Note: The values are taken directly from the dashboard image. The underlying dataset and formulas were not provided, so the exact calculation definitions cannot be independently verified from the image alone.
+
+📅 Monthly Sales Analysis
+The Monthly Sales visualization compares Total Purchase and Total Sales from January to December.
+The line chart allows users to:
+- Monitor sales throughout the year.
+- Compare purchases with sales.
+- Identify periods of increasing or decreasing performance.
+- Observe monthly fluctuations.
+- Investigate possible seasonal patterns.
+The dashboard shows that sales performance changes across the months, with noticeable fluctuations between the beginning, middle, and latter parts of the year.
+📆 Weekly Sales Analysis
+The Weekly Sales chart shows sales performance across the seven days of the week.
 Day	Sales
 Monday	$67K
 Tuesday	$53K
@@ -62,36 +53,47 @@ Saturday	$61K
 Sunday	$68K
 
 
+The visualization provides a straightforward comparison of sales activity across the week.
+The displayed values range from approximately $45K to $68K.
 🏆 Top 10 Products
-The Top 10 Products visual identifies products with the highest displayed sales values.
-Rank	Product	Sales
-1	P0041	23K
-2	P0030	23K
-3	P0042	21K
-4	P0019	20K
-5	P0010	16K
-6	P0044	16K
-7	P0032	16K
-8	P0005	16K
-9	P0033	14K
-10	P0002	13K
+The Top 10 Products chart highlights the products with the highest displayed sales values.
+Product	Sales
+P0041	23K
+P0030	23K
+P0042	21K
+P0019	20K
+P0010	16K
+P0044	16K
+P0032	16K
+P0005	16K
+P0033	14K
+P0002	13K
 
 
-📊 Daily Sales
-The Daily Sales area chart displays sales fluctuations across the days of the month.
-It can be used to identify:
-- High-sales days
-- Low-sales days
-- Short-term sales fluctuations
-- Changes in daily performance
-- Periods that may require further investigation
-💳 Payment Method
-The Payment Method donut chart compares transactions made through:
-- Online
-- Cash
-This provides a quick overview of customer payment preferences.
-🗂️ Category Performance
-The dashboard compares sales performance across four categories:
+This visualization makes it easier to identify products with relatively high sales contributions.
+It can be useful for further analysis of:
+- Product demand
+- Inventory planning
+- Product promotion
+- Sales contribution
+- Product-level performance
+📊 Daily Sales Analysis
+The Daily Sales area chart displays sales performance across the days of the month.
+The visualization shows noticeable day-to-day fluctuations rather than a consistent upward or downward movement.
+Daily analysis can help identify:
+- High-performing sales days
+- Lower-performing days
+- Sales fluctuations
+- Potential sales patterns
+- Periods requiring further investigation
+💳 Payment Method Analysis
+The Payment Method section uses a donut chart to display the distribution between:
+- Online payments
+- Cash payments
+This visualization provides an overview of the payment channels represented in the dataset.
+Understanding payment methods can help businesses monitor customer payment preferences and assess the relative use of digital and cash transactions.
+🗂️ Category Analysis
+The Category chart compares the sales values of four product categories.
 Category	Sales
 Category04	$95K
 Category02	$93K
@@ -99,62 +101,77 @@ Category05	$92K
 Category01	$69K
 
 
-🔎 Dashboard Filter
-The dashboard includes a Month Name filter that allows users to select a specific month and analyze the dashboard based on the selected period.
-💡 Key Insights
-Based on the dashboard:
-- Total Sales: approximately $401.41K
-- Total Quantity: approximately 4K
-- Total Purchase: approximately 333K
-- Total Profit: approximately 427.59M
-- Sunday records the highest displayed weekly sales at approximately $68K.
-- Wednesday records the lowest displayed weekly sales at approximately $45K.
-- P0041 and P0030 both record approximately 23K.
+The chart allows users to compare the contribution of different product categories to the displayed sales figures.
+🔎 Interactive Month Filter
+The dashboard includes a Month Name filter.
+Users can select a particular month to analyze the corresponding sales information, depending on how the underlying dashboard model is configured.
+This type of interactive filtering makes it easier to investigate specific periods rather than relying only on overall results.
+💡 Key Observations
+Based on the information visible in the dashboard:
+- Total sales are displayed as approximately $401.41K.
+- Total quantity is displayed as approximately 4K.
+- Total purchase is displayed as approximately 333K.
+- Total profit is displayed as approximately 427.59M.
+- The displayed weekly sales values range from approximately $45K to $68K.
+- Sunday has the highest displayed weekly sales value at approximately $68K.
+- Wednesday has the lowest displayed weekly sales value at approximately $45K.
+- P0041 and P0030 are the two products with the highest displayed values in the Top 10 Products chart, at approximately 23K each.
 - Category04 has the highest displayed category value at approximately $95K.
-- Category01 has the lowest displayed category value at approximately $69K among the categories shown.
-🛠️ Skills Demonstrated
-This project demonstrates:
-- Data cleaning and preparation
-- KPI development
-- Data visualization
-- Sales analysis
-- Trend analysis
-- Product performance analysis
-- Category analysis
-- Dashboard design
-- Interactive filtering
-- Business insight generation
-- Data storytelling
-🚀 Future Improvements
-Possible improvements include:
-- Year-over-year sales comparison
+- Category01 has the lowest displayed category value among the four categories shown, at approximately $69K.
+🎯 Business Questions the Dashboard Can Answer
+This dashboard can be used to investigate questions such as:
+1. What is the overall sales performance?
+2. How do sales change from month to month?
+3. How do purchase and sales trends compare?
+4. Which days of the week have higher displayed sales?
+5. Which products have the highest displayed sales?
+6. Which categories contribute the most to sales?
+7. What payment methods are represented?
+8. How does sales performance fluctuate from day to day?
+9. How does performance change when a particular month is selected?
+🛠️ Data Analytics Skills Demonstrated
+This project demonstrates several important Data Analytics and Business Intelligence skills:
+- 📊 Data visualization
+- 📈 Sales trend analysis
+- 🎯 KPI development
+- 📦 Product performance analysis
+- 🗂️ Category analysis
+- 💳 Payment-method analysis
+- 📅 Time-based analysis
+- 🔎 Interactive filtering
+- 📋 Dashboard design
+- 💡 Business insight generation
+- 📖 Data storytelling
+🚀 Possible Future Improvements
+The dashboard could be expanded with additional analytical features, including:
+- Year-over-year sales analysis
 - Sales growth percentage
 - Profit margin percentage
 - Average order value
 - Sales by location or region
 - Customer segmentation
 - Actual vs. target sales
-- Monthly profit analysis
-- Product drill-through pages
-- Category drill-through pages
+- Monthly profit trends
+- Product drill-through analysis
+- Category drill-through analysis
 - Dynamic KPI cards
-- Interactive tooltips
-🎯 Conclusion
-The Sales Dashboard provides a consolidated view of important sales and purchasing indicators.
-By combining KPIs with monthly, weekly, daily, product, payment-method, and category visualizations, the dashboard provides multiple perspectives for understanding sales performance.
-This project demonstrates how raw sales data can be transformed into an interactive Business Intelligence dashboard that communicates important information clearly and supports data-driven analysis.
+- More detailed payment-method analysis
+- Customer purchase frequency
+- Sales forecasting
+🧰 Tools
+Suggested tools used for this type of dashboard:
+- Microsoft Power BI
+- Power Query
+- DAX
+- Data Visualization
+- Business Intelligence
+📌 Conclusion
+The Sales Dashboard provides a consolidated view of sales performance through KPIs, charts, and interactive filtering.
+By combining monthly, weekly, and daily sales analysis with product, category, and payment-method information, the dashboard provides multiple perspectives for exploring the underlying sales data.
+This project demonstrates how raw business data can be transformed into an interactive dashboard that communicates important information clearly and supports data-driven analysis.
 👨‍💻 Author
 Tis Gyang
-Sales Analytics Dashboard — Data Analytics Portfolio Project
-
-### 📁 GitHub folder structure
-
-Make sure your repository looks like this:
-
-```text
-Sales-Dashboard/
-│
-├── README.md
-│
-└── assets/
-    └── sales-dashboard.png
+Sales Analytics Dashboard
+Data Analytics / Business Intelligence Portfolio Project
+📁 GitHub Upload Checklist
+Before publishing the project on GitHub, make sure your repository contains:
