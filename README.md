@@ -1,4 +1,8 @@
 📊 Sales Dashboard
+<p align="center">
+  <img src="Sales Dashboard.png" alt="Interactive Sales Dashboard" width="100%">
+</p>
+
 📌 Project Overview
 This project presents a Sales Dashboard designed to provide a clear and interactive overview of business sales performance.
 The dashboard brings together key performance indicators, monthly sales, weekly sales, daily sales, top-performing products, payment methods, and category performance in one visual report.
@@ -6,20 +10,7 @@ The purpose of this project is to transform sales data into meaningful business 
 🖼️ Dashboard Preview
 Upload your dashboard image here.
 
-Dashboard Image
- 
-GitHub image path:
-assets/sales-dashboard.png
-📂 Recommended GitHub Repository Structure
-Sales-Dashboard/
-│
-├── README.md
-│
-└── assets/
-    └── sales-dashboard.png
-To display the image in GitHub, use:
-![Sales Dashboard]("Sales Dashboard.png")
-After uploading the image to the assets folder, GitHub will automatically display it in this section.
+
 📈 Key Performance Indicators
 The dashboard contains four major KPIs:
 KPI	Value
